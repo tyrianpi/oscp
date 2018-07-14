@@ -1,0 +1,10 @@
+
+ps aux | grep root 
+ps -ef 
+// Use the below to find versions of specific services
+dpkg -l 
+rpm --qa 
+httpd -v
+mysql --version 
+python --version 
+ruby -v 
