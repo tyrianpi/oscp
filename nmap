@@ -1,1 +1,5 @@
-nmap -sC -sV -oA nmap <>
+nmap -sC -sV -oA <filename> <target>
+
+# -sC : safe script 
+-sV : Standard service detection	
+-oA : Output all three formats 
